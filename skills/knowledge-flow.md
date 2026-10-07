@@ -3,7 +3,7 @@ description: A flow must be launched, named, claimed or reached, or a hook or sa
 dependencies: [vision-flow]
 ---
 
-The retained read-only receipt distinguishes the Flow client from the running service: `/home/li/.local/bin/flow` reports 0.23.0; `flow-nexus.service` MainPID 1524809 runs `/nix/store/j689l77bmlfmgc6ichksrqnnmdnma8ig-flow-0.14.0/bin/flow-nexus` and reports 0.14.0; and `/home/li/.nix-profile/bin/flow-nexus` on `PATH` reports 0.12.2. The PATH binary is different from the running service. The receipt also reports ordinary and meta sockets at `/run/user/1001/flow/flow.sock` and `/run/user/1001/flow/flow-meta.sock`.
+The retained read-only receipt distinguishes the Flow client from the running service: `/home/li/.local/bin/flow` reports 0.23.0; `flow-nexus.service` MainPID 1524809 runs `/nix/store/j689l77bmlfmgc6ichksrqnnmdnma8ig-flow-0.14.0/bin/flow-nexus` and reports 0.14.0; and `/home/li/.nix-profile/bin/flow-nexus` on `PATH` reports 0.12.2. The PATH binary is different from the running service. Separately, the historical corpus record at `/home/li/private-repos/flow-evidence/42265e/fable-restart-context/sources/flows/bad807/reports/ethos-nexus-corpus.md:8709` lists ordinary and meta sockets at `/run/user/1001/flow/flow.sock` and `/run/user/1001/flow/flow-meta.sock`; it is not a current endpoint witness.
 
 This packet does not prove that a FlowStart request, a seat, a hook, or a native first user turn succeeded. It also does not establish a deployed Flow 0.24 route. A private experimental Flow 0.24 instance, if present, is separate from the deployed service and cannot support a claim about it.
 
