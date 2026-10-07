@@ -8,3 +8,10 @@ The retained Home 83 runtime packet records Flow Nexus 0.23 as the deployed Flow
 This packet does not prove that a FlowStart request, a seat, a hook, or a native first user turn succeeded. It also does not establish a deployed Flow 0.24 route. A private experimental Flow 0.24 instance, if present, is separate from the deployed service and cannot support a claim about it.
 
 Before launching, naming, claiming, reaching, or reporting a Flow, read the matching deployed source and obtain the target's explicit response through the current ordinary or meta socket. Do not infer protocol, caller identity, store state, or runtime bindings from a version number or a client path.
+
+The native Codex launcher has a witnessed Tertiary launch: its retained
+receipt records an authenticated remote binding, the source checksum
+`03004fccf89aad2e053e955f5f4926ecbcd7ee8eb1e335bd2b6ed0aca22bf234`,
+and an accepted first turn. That evidence qualifies the launcher only for
+that profile. Mind.Primary remains unresolved, so it does not qualify a
+Mind.Primary launch, replacement, or retirement decision.
