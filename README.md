@@ -1,7 +1,9 @@
 # mind-skills
 
-This repository holds the source of the Mind aspect's skills.
+This repository holds the Mind aspect's authored skill sources in
+`skills/`. Knowledge and operation sources use the `knowledge-` and
+`operation-` kind prefixes.
 
-The Mind aspect is in charge of this repository. A flow of another aspect that wants a change here messages the Mind aspect, which investigates the suggestion and weighs its merits.
-
-The layout inside is not yet decided. Nothing is to be added until it is.
+The Mind aspect owns this repository. Another aspect's flow that wants a
+change contacts Mind, which investigates it and brings a change to the
+living.
