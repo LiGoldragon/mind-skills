@@ -52,7 +52,8 @@ Target-specific text in a flat source uses `{% if claude %}`, `{% if codex %}`, 
 
 ## Skill types
 
-A skill's kind says who stands behind it, and is its prefix: `vision-`, `intent-`, `knowledge-`, `operation-`, `trial-` or `compensation-`.
+A skill's kind says who stands behind it, and is its prefix: `spirit-`, `vision-`, `intent-`, `knowledge-`, `operation-`, `trial-` or `compensation-`.
+A `spirit-` skill carries the basic behavior, attitude and truth of the machine; the spirit skills together form the core of the system prompt. They change only on the living's word.
 A `vision-` or `intent-` skill is gold: the living's approved words, changed only on the living's word.
 A `knowledge-` skill states what is deployed and true today, written by flows from what they have read and verified.
 An `operation-` skill is deployed when the living describes what he wants a skill to do or to change; the primary Mind seat reviews and interprets it, and no glance from the living is needed.
