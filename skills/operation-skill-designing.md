@@ -59,6 +59,7 @@ An `operation-` skill is deployed when the living describes what he wants a skil
 A `compensation-` skill is written by flows; it compensates for what the system does not yet do, so that the system runs.
 A `trial-` skill is written by flows: it is being tried for how useful it can become as a compensation skill.
 Compensation and trial skills are machine-authored without the living in the loop, refined as they are used and reviewed, and upgraded into operation, knowledge, vision or intent skills.
+A new trial skill is tried first by subflows: the flow that writes it launches subflows that load it on real tasks, reads what they did, and refines the skill before any main flow loads it.
 
 `user-only: true` — the skill enters only through the user prompt or a
 launcher's first turn; the flow cannot load it. It deploys as
